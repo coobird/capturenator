@@ -31,6 +31,17 @@ import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * This program demonstrates the capability of Capturenator to take images
+ * around the mouse pointer.
+ * <p>
+ * Once the program is run, try moving the mouse cursor around the desktop.
+ * This program uses Capturenator to take a screenshots of a region around
+ * the mouse cursor.
+ * <p>
+ * Upon capturing the images, a simple image viewer window (using Swing)
+ * will show the images that were taken.
+ */
 public class ContinuousScreenshotsAroundMousePointer {
     // Demo to take a bunch of screenshots around the mouse pointer.
     public static void main(String[] args) throws InterruptedException {

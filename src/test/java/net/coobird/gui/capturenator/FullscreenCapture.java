@@ -28,6 +28,13 @@ import net.coobird.gui.simpleimageviewer4j.Viewer;
 
 import java.awt.image.BufferedImage;
 
+/**
+ * This program demonstrates how to take a full screen capture, or
+ * screenshot using Capturenator.
+ * <p>
+ * Upon taking the screenshot, a simple image viewer window (using Swing)
+ * will show the image that was taken.
+ */
 public class FullscreenCapture {
     public static void main(String[] args) {
         final Capture capture = new Capture();
